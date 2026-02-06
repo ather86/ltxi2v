@@ -1,0 +1,37 @@
+# Python virtual environment
+venv/
+venv311/
+*env/
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Application-specific output and temp files
+/output/
+/input/
+ffmpeg_list.txt
+
+# Generated media, documents, and logs
+# While /output/ and /input/ are ignored, these patterns prevent accidental
+# commits if such files are saved elsewhere in the project.
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.mp4
+*.mov
+*.pdf
+*.xlsx
+
+# IDE and editor configuration
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
